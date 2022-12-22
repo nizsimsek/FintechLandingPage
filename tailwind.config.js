@@ -16,8 +16,8 @@ module.exports = {
       'pc1': '1280px',
       // => @media (min-width: 1280px) { ... }
 
-      'pc2': '1360px',
-      // => @media (min-width: 1360px) { ... }
+      'pc2': '1366px',
+      // => @media (min-width: 1366px) { ... }
 
       'pc3': '1440px',
       // => @media (min-width: 1440px) { ... }
@@ -25,7 +25,10 @@ module.exports = {
       'pc4': '1600px',
       // => @media (min-width: 1600px) { ... }
 
-      'pc5': '2000px',
+      'pc5': '1920px',
+      // => @media (min-width: 1920px) { ... }
+
+      'pc6': '2000px',
       // => @media (min-width: 2000px) { ... }
     },
   },
