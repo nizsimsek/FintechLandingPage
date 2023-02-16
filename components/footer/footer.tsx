@@ -68,7 +68,7 @@ const Footer = () => {
         </div>
         <hr className="border-t-2 border-[#71777D] rounded-lg mt-8 mb-4" />
         <div className="w-full h-full">
-          <h4 className="text-[#92989F] text-center pc3:text-lg">
+          <span className="text-[#92989F] text-center pc3:text-lg">
             Design with love © 2022 Created by{' '}
             <Link
               href="https://github.com/nizsimsek"
@@ -76,11 +76,11 @@ const Footer = () => {
             >
               Nizamettin Şimşek
             </Link>
-          </h4>
+          </span>
         </div>
       </div>
       <div className="flex pc1:hidden flex-col h-full w-full text-sm bg-[#121139] p-2 tab1:text-lg">
-        <h4 className="text-[#92989F] text-center">
+        <span className="text-[#92989F] text-center">
           Design with love © 2022{' '}
           <span className="block tab2:inline-block">
             Created by{' '}
@@ -91,7 +91,7 @@ const Footer = () => {
               Nizamettin Şimşek
             </Link>
           </span>
-        </h4>
+        </span>
       </div>
     </>
   );
